@@ -18,7 +18,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    width: 240px;
+    width: 25%;
     background: #11101d;
     padding: 6px 14px;
 }
@@ -88,7 +88,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    left: 0;
+    left: 0 ;
     top: 0;
     border-radius: 12px;
     outline: none;
@@ -99,7 +99,7 @@ body{
     color: #fff;
 
 }
-.sidebar ul li .bx bx-search{
+.sidebar ul li .bx-search{
     position: absolute;
     z-index: 99;
     color: #fff;
@@ -112,23 +112,25 @@ body{
     align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .sidebar ul li a:hover{
     color: #11101d;
     background: #fff;
 }
-.sidebar ul li a i{
+.sidebar ul li i{
     height: 50px;
     min-width: 50px;
     border-radius: 12px;
     line-height: 50px;
+    text-align: center;
 }
 .sidebar .profile_content{
     position: absolute;
     color: #fff;
     bottom: 0;
     left: 0;
+    width: 100%;
 }
 .sidebar .profile_content .profile{
     position: relative;
@@ -149,15 +151,15 @@ body{
 .profile .profile_details .name_job{
     margin-left: 10px;
 }
-.profile .profile_details .name{
-    font-size: 15px;
+.profile .name_job .name{
+    font-size: 18px;
     font-weight: 400;
 }
-.profile .profile_details .job{
+.profile .name_job .job{
     font-size: 12px;
 }
-.profile #log_out{
-    position: absolute;
+.profile_content #log_out{
+    position:absolute;
     left: 88%;
     bottom: 5px;
     transform: translateX(-50%);
